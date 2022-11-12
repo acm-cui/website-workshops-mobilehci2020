@@ -39,6 +39,6 @@ jobs:
           user-email: 'cuitechchair@gmail.com'
           user-name: 'cuibot'
           target-branch: 'live' # This will change in the future to 'main' or equivalent
-          gpg_sign_key: ${{ secrets.GPG_SIGN_KEY }}
+          gpg-sign-key: ${{ secrets.GPG_SIGN_KEY }}
           target-directory: 'workshops/MobileHCI2020' ###### <<<<<<<<<<<<<<<<<< ENSURE YOU CHANGE THIS!!!
 
